@@ -1,0 +1,38 @@
+.icono{
+    display: flex;
+    max-width: 2rem;
+    height: auto;
+    background-color: black;
+    
+}
+
+.iconos{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    gap: 1rem;
+
+}
+
+.DHlogo{
+    max-width: 30% ;
+}
+
+.top {
+    text-transform: uppercase;
+    padding: 1rem;
+    background: #f21d1d;
+    border: none;
+    color: white;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .contenedor{
+    border: 1px solid black;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+

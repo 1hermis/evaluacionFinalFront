@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --main: #D93636;
+  --secundary: #D93240;
+  --white: #fff;
+  --card-background: #f2f2f0;
+  --text:#403f37;
+  --container: #BFBFBF;
+
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: white;
+}
+
+.card-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.125rem;
+  text-align: center;
+  margin: 0 auto;
+}
